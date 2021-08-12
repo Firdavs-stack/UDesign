@@ -1,0 +1,32 @@
+/* Colors
+=================== */
+$accent: #DBB889;
+$accent2:#0098DA;
+$light:  #FFF0DB;
+$dark:   #191919;
+$dark2:  #252525;
+$white:  #fff;
+/* Box shadow
+=================== */
+$shadow: -1px 2px 11px 2px rgba(0,0,0,0.7);
+/* Fonts
+=================== */
+@font-face{
+    font-family: 'mainFont';
+    src: url(../fonts/tex-gyre-adventor/TeXGyreAdventor-Bold.ttf),
+    url(../fonts/tex-gyre-adventor/TeXGyreAdventor-BoldItalic.ttf),
+    url(../fonts/tex-gyre-adventor/TeXGyreAdventor-Italic.ttf),
+    url(../fonts/tex-gyre-adventor/TeXGyreAdventor-Regular.ttf);
+}
+
+$text:    'Montserrat', sans-serif;
+$heading: 'Montserrat', sans-serif;
+
+/* Media queries
+=================== */
+$laptop2:   1366px;
+$laptop:    1125px;
+$tablet:    995px;
+$mobile:    680px;
+$mobile-sm: 480px;
+$mobile-xs: 350px;

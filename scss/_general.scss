@@ -1,0 +1,90 @@
+/* General styles
+ ===================*/
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 15px;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: $text;
+    font-weight: 400;
+    overflow-x: hidden;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: $text;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+ul, li{
+    list-style: none;
+}
+.container-lg{
+    max-width: 1386px;
+    padding: 0 1rem;
+    margin: 0 auto;
+}
+.container-md{
+    max-width: 1262px;
+    padding: 0 1rem;
+    margin: 0 auto;
+}
+.container-sm{
+    max-width: 1156px;
+    padding: 0 1rem;
+    margin: 0 auto;
+}
+.btn{
+    background: rgba(12, 12, 12, 0.41);
+    border: none;
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 20px;
+    color: $accent;
+    padding: 0.3em 1em;
+    border-radius: .3em;
+    line-height: 2;
+    transition: background-color .3s linear;
+    
+    &:hover{
+        cursor: pointer;
+        background-color: lighten($dark, 30%);
+    }
+    &:focus{
+        outline: none;
+    }
+    &--alt{
+        background-color: $accent2;
+        padding: 0.3em 4em;
+        &:hover{
+            cursor: pointer;
+            background-color: lighten($accent2, 9%);
+        }
+        @media (max-width: $mobile){
+            font-size: 17px;
+        }
+    }
+}
+.center{
+    display: flex;
+    justify-content: center;
+} 
+.text{
+    font-weight: 400;
+    font-size: 18px;
+    color: $light;
+    line-height: 1.7;
+}
+.title{
+    font-weight: bold;
+    font-size: 40px;
+    color: $accent;
+    span{
+        color: $accent2;
+    }
+}

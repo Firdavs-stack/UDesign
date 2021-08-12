@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Udesign</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/favicon.png">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+    <link rel="stylesheet" href="fancybox/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/swiper.css">
+</head>
+
+<body>
+    <!-- ============= Header ============= -->
+    <div class="close">
+        <div class="burger">
+            <span class="burger__line"></span>
+        </div>
+    </div>
+    <style>
+        .see-more {
+            display: none;
+        }
+    </style>
+
+
+
+
+    <!-- ============= Hero ============= -->
+
+    <section class="hero">
+        <header class="header fixed">
+            <div class="header__container container-lg">
+
+                <div class="header__app">
+                    <button class="btn" data-scroll="#contact">Оставить заявку</button>
+                </div>
+                <nav class="header__nav">
+                    <a class="header__link" href="#" data-scroll="#about">О нас</a>
+                    <a class="header__link" href="#" data-scroll="#services">Услуги</a>
+                    <a class="header__link" href="#" data-scroll="#portfolio">Портфолио</a>
+                    <a class="header__link" href="#" data-scroll="#why">Преимущества</a>
+                    <a class="header__link" href="#" data-scroll="#process">Процесс работы</a>
+                </nav>
+                <div class="header__tels">
+                    <a href="#" class="header__tel">+xxx xxx xx xx</a>
+                    <a href="#" class="header__tel">+xxx xxx xx xx</a>
+                </div>
+            </div>
+        </header>
+        <div class="hero__container__custom ">
+            <div class="slider single-item">
+                <div class="hero__content item-1">
+                    <h1 class="hero__heading">Дизайн студия интерьера</h1>
+                    <h3 class="hero__h3">Создание дизайн-проектов <span>под ключ.</span> </h3>
+                    <p class="text">Релизуем дизайн-проекты интерьеров для жилых и коммерческих помещений</p>
+                    <div class="content__mask"></div>
+                </div>
+                <div class="hero__content item-2">
+                    <h1 class="hero__heading">Дизайн студия интерьера</h1>
+                    <h3 class="hero__h3">Создание дизайн-проектов <span>под ключ.</span> </h3>
+                    <p class="text">Релизуем дизайн-проекты интерьеров для жилых и коммерческих помещений</p>
+                    <div class="content__mask"></div>
+                </div>
+                <div class="hero__content item-3">
+                    <h1 class="hero__heading">Дизайн студия интерьера</h1>
+                    <h3 class="hero__h3">Создание дизайн-проектов <span>под ключ.</span> </h3>
+                    <p class="text">Релизуем дизайн-проекты интерьеров для жилых и коммерческих помещений</p>
+                    <div class="content__mask"></div>
+                </div>
+            </div>
+        </div>
+        <div class="hero__line">
+            <img src="img/line.png" alt="">
+        </div>
+    </section>
+
+    <!-- ============= About us ============= -->
+    <section class="about" id="about">
+        <div class="about__content container-md">
+            <div class="about__info">
+                <h3 class="title">О нас</h3>
+                <p class="about__text text">
+                    Дизайнерская студия <span>Ю</span>Design — это команда специалистов, с многолетним
+                    стажем и богатым опытом, сплотившихся воедино под новым брендом.
+                    Наша специализация — услуги по профессиональному дизайну интерьеров
+                    <span>под ключ</span>. Мы предлагаем все услуги — от проектирования до ремонта и
+                    сдачи проекта. Сегодня, члены нашей команды — заявившие о себе
+                    специалисты. И, наверное, лучшее наше решение — это идея об объединении,
+                    ведь совместное созидание — первый шаг к созданию шедевра.
+                </p>
+            </div>
+            <div class="about__img">
+                <div id="slideshow">
+                    <div class="slide"><img src="img/top-car-item.png" alt=""></div>
+                    <div class="slide"><img src="img/top-car-item-2.png" alt=""></div>
+                    <div class="slide"><img src="img/top-car-item-3.png" alt=""></div>
+                </div>
+            </div>
+        </div>
+        <div class="hero__line-sm">
+            <img src="img/line-sm.png" alt="">
+        </div>
+    </section>
+
+    <!-- ============= Our Services ============= -->
+    <section class="services" id="services">
+        <div class="services__container container-sm">
+            <h3 class="title">Наши услуги</h3>
+            <div class="services__content container-sm">
+                <div class="services__item">
+                    <div class="services__group">
+                        <div class="services__icon">
+                            <img src="img/services/item-1.png" alt="">
+                        </div>
+                        <div class="services__service text">Дизайн интерьера</div>
+                    </div>
+                </div>
+                <div class="services__item">
+                    <div class="services__group">
+                        <div class="services__icon">
+                            <img src="img/services/item-2.png" alt="">
+                        </div>
+                        <div class="services__service text">Сбор документов для строительства</div>
+                    </div>
+                </div>
+                <div class="services__item">
+                    <div class="services__group">
+                        <div class="services__icon">
+                            <img src="img/services/item-3.png" alt="">
+                        </div>
+                        <div class="services__service text">Дизайн фасада и ландшафта</div>
+                    </div>
+                </div>
+                <div class="services__item">
+                    <div class="services__group">
+                        <div class="services__icon">
+                            <img src="img/services/item-4.png" alt="">
+                        </div>
+                        <div class="services__service text">Подсчет сметы</div>
+                    </div>
+                </div>
+
+
+                <div class="services__item">
+                    <div class="services__group">
+                        <div class="services__icon">
+                            <img src="img/services/item-5.png" alt="">
+                        </div>
+                        <div class="services__service text">Создание чертежей</div>
+                    </div>
+                </div>
+                <div class="services__item">
+                    <div class="services__group">
+                        <div class="services__icon">
+                            <img src="img/services/item-6.png" alt="">
+                        </div>
+                        <div class="services__service text">Ремонт под ключ</div>
+                    </div>
+                </div>
+                <div class="services__item">
+                    <div class="services__group">
+                        <div class="services__icon">
+                            <img src="img/services/item-7.png" alt="">
+                        </div>
+                        <div class="services__service text">Авторский надзор</div>
+                    </div>
+                </div>
+                <div class="services__item">
+                    <div class="services__group">
+                        <div class="services__icon">
+                            <img src="img/services/item-8.png" alt="">
+                        </div>
+                        <div class="services__service text">Визуализация проекта</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero__line-sm">
+            <img src="img/line-sm.png" alt="">
+        </div>
+    </section>
+
+    <h3 id='portfolio' class="title container-md">Портфолио</h3>
+    <!-- ============= Portfolio ============= -->
+    <div class="swiper-container">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+                <img src="img/originals/1-min.jpg" alt="#">
+            </div>
+            <div class="swiper-slide">
+                <img src="img/originals/2-min.jpg" alt="#">
+            </div>
+            <div class="swiper-slide">
+                <img src="img/originals/3-min.jpg" alt="#">
+            </div>
+            <div class="swiper-slide">
+                <img src="img/originals/4-min.jpg" alt="#">
+            </div>
+            <div class="swiper-slide">
+                <img src="img/originals/5-min.jpg" alt="#">
+            </div>
+            ...
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+    </div>
+    <div class="image-mini-slider">
+        <div class="image-mini-slider__wrapper swiper-wrapper">
+            <div class="image-mini-slider__slide swiper-slide">
+                <div class="image-mini-slider__image">
+                    <img src="img/originals/1-min.jpg" alt="#">
+                </div>
+            </div>
+            <div class="image-mini-slider__slide swiper-slide">
+                <div class="image-mini-slider__image">
+                    <img src="img/originals/2-min.jpg" alt="#">
+                </div>
+            </div>
+            <div class="image-mini-slider__slide swiper-slide">
+                <div class="image-mini-slider__image">
+                    <img src="img/originals/3-min.jpg" alt="#">
+                </div>
+            </div>
+            <div class="image-mini-slider__slide swiper-slide">
+                <div class="image-mini-slider__image">
+                    <img src="img/originals/4-min.jpg" alt="#">
+                </div>
+            </div>
+            <div class="image-mini-slider__slide swiper-slide">
+                <div class="image-mini-slider__image">
+                    <img src="img/originals/5-min.jpg" alt="#">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ============= Why? ============= -->
+    <section class="why" id="why">
+        <div class="why__container container-md">
+            <h3 class="title">Почему <span>Ю</span>Design?</h3>
+            <div class="why__content">
+                <div class="why__item">
+                    <div class="why__group">
+                        <div class="why__icon">
+                            <img src="img/why/item-1.png" alt="">
+                        </div>
+                        <div class="why__title text">Креативность</div>
+                    </div>
+                    <div class="why__text hidden">
+                        Самый главный и значимый фактор
+                        в дизайне - креатив.
+                        Нестандартное решение
+                        банальных вопросов с творческим подходом -
+                        вот что отличает “ЮDesign” на фоне
+                        конкурентов.
+                    </div>
+                </div>
+                <div class="why__item">
+                    <div class="why__group">
+                        <div class="why__icon">
+                            <img src="img/why/item-2.png" alt="">
+                        </div>
+                        <div class="why__title text">Опыт</div>
+                    </div>
+                    <div class="why__text hidden">
+                        Все без исключения члены нашей команды - люди, имеющие за плечами
+                        богатый опыт в своем деле. Со временем, мы отточили свое мастерство
+                        настолько, что понимаем заказчика с полуслова.
+
+                    </div>
+                </div>
+                <div class="why__item">
+                    <div class="why__group">
+                        <div class="why__icon">
+                            <img src="img/why/item-3.png" alt="">
+                        </div>
+                        <div class="why__title text">Гармония</div>
+                    </div>
+                    <div class="why__text hidden">
+                        По нашему мнению, каждая работа должна гармонично сочетать
+                        в себе все детали. Это и придает завершенность и полноту
+                        картины нашим работам, за что нас ценят клиенты.
+                    </div>
+                </div>
+
+                <div class="why__item">
+                    <div class="why__group">
+                        <div class="why__icon">
+                            <img src="img/why/item-4.png" alt="">
+                        </div>
+                        <div class="why__title text">Рациональность</div>
+                    </div>
+                    <div class="why__text hidden">
+                        Согласно нашей философии - все ресурсы должны использоваться
+                        в полной мере, а все элементы - быть универсальными. Это позволяет
+                        решить ряд проблем, и получить максимум эффекта с минимальными затратами.
+                    </div>
+                </div>
+                <div class="why__item">
+                    <div class="why__group">
+                        <div class="why__icon">
+                            <img src="img/why/item-5.png" alt="">
+                        </div>
+                        <div class="why__title text">Совершенствование</div>
+                    </div>
+                    <div class="why__text hidden">
+                        Мы всегда стараемся развиваться и "быть на волне". Постоянно
+                        находимся
+                        в процессе обучения
+                        и совершенствования навыков.
+                        Образование для нас - не просто слово.
+                    </div>
+                </div>
+                <div class="why__item">
+                    <div class="why__group">
+                        <div class="why__icon">
+                            <img src="img/why/item-6.png" alt="">
+                        </div>
+                        <div class="why__title text">Команда</div>
+                    </div>
+                    <div class="why__text hidden">
+                        Коллектив “ЮDesign” - единый механизм, который удалось
+                        настроить на четкую и слаженную работу. По этой причине проекты выполняются
+                        на высшем качестве и сдаются вовремя.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero__line-sm">
+            <img src="img/line-sm.png" alt="">
+        </div>
+    </section>
+
+
+    <!-- ============= Process ============= -->
+    <section class="process" id="process">
+        <div class="process__container container-sm">
+            <h3 class="title">Процесс работы</h3>
+            <div class="process__content">
+                <div class="process__left">
+                    <div class="process__item">
+                        <div class="process__group">
+                            <div class="process__icon">
+                                <img src="img/process/item-1.png" alt="">
+                            </div>
+                            <div class="process__step text">Вы отправляете нам заявку на услуги</div>
+                        </div>
+                    </div>
+                    <div class="process__item">
+                        <div class="process__group">
+                            <div class="process__icon">
+                                <img src="img/process/item-2.png" alt="">
+                            </div>
+                            <div class="process__step text">Менеджер перезванивает и уточняет детали</div>
+                        </div>
+                    </div>
+                    <div class="process__item">
+                        <div class="process__group">
+                            <div class="process__icon">
+                                <img src="img/process/item-3.png" alt="">
+                            </div>
+                            <div class="process__step text">Наша команда подсчитывает сроки и цены, составляет план
+                                работ</div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="process__right">
+                    <div class="process__item">
+                        <div class="process__group">
+                            <div class="process__icon">
+                                <img src="img/process/item-4.png" alt="">
+                            </div>
+                            <div class="process__step text">Менеджер уточняет время, назначает встречу
+                                в офисе, где обговариваются основные моменты</div>
+                        </div>
+                    </div>
+                    <div class="process__item">
+                        <div class="process__group">
+                            <div class="process__icon">
+                                <img src="img/process/item-5.png" alt="">
+                            </div>
+                            <div class="process__step text">Команда приступает к активной работе над вашим проектом
+                            </div>
+                        </div>
+                    </div>
+                    <div class="process__item">
+                        <div class="process__group">
+                            <div class="process__icon">
+                                <img src="img/process/item-6.png" alt="">
+                            </div>
+                            <div class="process__step text">Выолненный проект сдается довольному клиенту
+                                в указанные сроки</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero__line-sm">
+            <img src="img/line-sm.png" alt="">
+        </div>
+    </section>
+
+    <!-- ============= Contact us ============= -->
+    <section class="contact" id="contact">
+        <div class="contact__container container-sm">
+            <h3 class="title">Связаться с нами</h3>
+            <p class="text">Заполните форму и в ближайшее время наш главный специалист свяжется с Вами</p>
+            <form action="" class="form" method="POST">
+                <div class="form__left">
+                    <div class="form__group">
+                        <label for="name">Имя</label>
+                        <input required type="text" placeholder="Введите свое имя..." name="name" id="name">
+
+                    </div>
+                    <div class="form__group">
+                        <label for="tel">Номер телефона</label>
+                        <input required type="tel" placeholder="Ваш контактный номер" name="tel" id="tel">
+                    </div>
+                    <div class="form__group">
+                        <label for="mail">Электонная почта</label>
+                        <input type="mail" placeholder="Ваш электронный адрес" name="mail" id="mail">
+
+                    </div>
+                </div>
+                <div class="form__right">
+                    <div class="form__group">
+                        <label for="comment">Вопрос, комменатрий</label>
+                        <textarea placeholder="Напишите свои комментарии или вопросы..." cols="100%" rows="100%"
+                            name="text" id="comment"></textarea>
+                        <div class="center">
+                            <button type="#" class="btn btn--alt" id="#">Отправить заявку</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="hero__line-sm">
+            <img src="img/line-sm.png" alt="">
+        </div>
+    </section>
+    <!-- ============= Footer ============= -->
+    <footer class="footer">
+        <div class="footer__container container-md">
+            <div class="footer__social">
+                <a href="https://instagram.com" class="footer__icon" target="_blank">
+                    <img src="img/footer/instagram.png" alt="">
+                </a>
+                <a href="https://facebook.com" class="footer__icon" target="_blank">
+                    <img src="img/footer/facebook.png" alt="">
+                </a>
+                <a href="https://t.me/" class="footer__icon" target="_blank">
+                    <img src="img/footer/telegram.png" alt="">
+                </a>
+            </div>
+            <div class="footer__logo">
+                <img src="img/logo.png" alt="">
+            </div>
+            <div class="footer__info">
+                <a href="#" class="footer__tel">+xxx xxx xx xx</a>
+                <a href="#" class="footer__tel">+xxx xxx xx xx</a>
+                <address>Расположение</address>
+            </div>
+        </div>
+    </footer>
+    <div id="cube-loader">
+        <div class="caption">
+            <div class="cube-loader">
+                <div class="cube loader-1"></div>
+                <div class="cube loader-2"></div>
+                <div class="cube loader-4"></div>
+                <div class="cube loader-3"></div>
+            </div>
+        </div>
+    </div>
+    <style>
+        html,
+        body {
+            height: 100%;
+        }
+
+        #cube-loader {
+            /* display: none !important; */
+            align-items: center;
+            display: flex;
+            height: 100%;
+            width: 100%;
+            position: fixed;
+            top: 0;
+            left: 0;
+            background-color: rgba(37, 37, 37, 0.96);
+        }
+
+        #cube-loader .caption {
+            margin: 0 auto;
+        }
+
+        #cube-loader .cube-loader {
+            width: 73px;
+            height: 73px;
+            margin: 0 auto;
+            margin-top: 49px;
+            position: relative;
+            transform: rotateZ(45deg);
+        }
+
+        #cube-loader .cube-loader .cube {
+            position: relative;
+            transform: rotateZ(45deg);
+            width: 50%;
+            height: 50%;
+            float: left;
+            transform: scale(1.1);
+        }
+
+        #cube-loader .cube-loader .cube:before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #DBB889;
+            animation: cube-loader 2.76s infinite linear both;
+            transform-origin: 100% 100%;
+        }
+
+        #cube-loader .cube-loader .loader-2 {
+            transform: scale(1.1) rotateZ(90deg);
+        }
+
+        #cube-loader .cube-loader .loader-3 {
+            transform: scale(1.1) rotateZ(180deg);
+        }
+
+        #cube-loader .cube-loader .loader-4 {
+            transform: scale(1.1) rotateZ(270deg);
+        }
+
+        #cube-loader .cube-loader .loader-2:before {
+            animation-delay: 0.35s;
+        }
+
+        #cube-loader .cube-loader .loader-3:before {
+            animation-delay: 0.69s;
+        }
+
+        #cube-loader .cube-loader .loader-4:before {
+            animation-delay: 1.04s;
+        }
+
+        @keyframes cube-loader {
+
+            0%,
+            10% {
+                transform: perspective(136px) rotateX(-180deg);
+                opacity: 0;
+            }
+
+            25%,
+            75% {
+                transform: perspective(136px) rotateX(0deg);
+                opacity: 1;
+            }
+
+            90%,
+            100% {
+                transform: perspective(136px) rotateY(180deg);
+                opacity: 0;
+            }
+        }
+    </style>
+    <style>
+        .hero__container__custom .slider .hero__content.slick-active {
+            -webkit-animation: myMove 8s 1 ease-in-out;
+            -moz-animation: myMove 8s 1 ease-in-out;
+            -o-animation: myMove 8s 1 ease-in-out;
+            -ms-animation: myMove 8s 1 ease-in-out;
+            animation: myMove 8s 1 ease-in-out;
+        }
+
+        .hero__container__custom .slider .hero__content.slick-active.item-2 {
+            -webkit-animation: myMove1 8s 1 ease-in-out !important;
+            -moz-animation: myMove1 8s 1 ease-in-out !important;
+            -o-animation: myMove1 8s 1 ease-in-out !important;
+            -ms-animation: myMove1 8s 1 ease-in-out !important;
+            animation: myMove1 8s 1 ease-in-out !important;
+        }
+
+        .hero__container__custom .slider .hero__content.slick-active.item-3 {
+            -webkit-animation: myMove2 8s 1 ease-in-out !important;
+            -moz-animation: myMove2 8s 1 ease-in-out !important;
+            -o-animation: myMove2 8s 1 ease-in-out !important;
+            -ms-animation: myMove2 8s 1 ease-in-out !important;
+            animation: myMove2 8s 1 ease-in-out !important;
+        }
+
+        .myKenburns .slick-slide[aria-hidden="true"] img {
+            visibility: hidden;
+        }
+
+        @keyframes myMove {
+            from {
+                background-position: left bottom;
+            }
+
+            to {
+                background-position: top right;
+            }
+        }
+
+        @-webkit-keyframes myMove {
+            from {
+                background-position: left bottom;
+            }
+
+            to {
+                background-position: top right;
+            }
+        }
+
+        @-o-keyframes myMove {
+            from {
+                background-position: left bottom;
+            }
+
+            to {
+                background-position: top right;
+            }
+        }
+
+        @-moz-keyframes myMove {
+            from {
+                background-position: left bottom;
+            }
+
+            to {
+                background-position: top right;
+            }
+        }
+
+        @-ms-keyframes myMove {
+            from {
+                background-position: left bottom;
+            }
+
+            to {
+                background-position: top right;
+            }
+        }
+
+
+        @keyframes myMove1 {
+            from {
+                transform: scale(1.1);
+            }
+
+            to {
+                transform: scale(1);
+            }
+        }
+
+        @-webkit-keyframes myMove1 {
+            from {
+                transform: scale(1.1);
+            }
+
+            to {
+                transform: scale(1);
+            }
+        }
+
+        @-o-keyframes myMove1 {
+            from {
+                transform: scale(1.1);
+            }
+
+            to {
+                transform: scale(1);
+            }
+        }
+
+        @-moz-keyframes myMove1 {
+            from {
+                transform: scale(1.1);
+            }
+
+            to {
+                transform: scale(1);
+            }
+        }
+
+        @-ms-keyframes myMove1 {
+            from {
+                transform: scale(1.1);
+            }
+
+            to {
+                transform: scale(1);
+            }
+        }
+
+
+        @keyframes myMove2 {
+            from {
+                transform: scale(1);
+            }
+
+            to {
+                transform: scale(1.2);
+            }
+        }
+
+        @-webkit-keyframes myMove2 {
+            from {
+                transform: scale(1);
+            }
+
+            to {
+                transform: scale(1.2);
+            }
+        }
+
+        @-o-keyframes myMove2 {
+            from {
+                transform: scale(1);
+            }
+
+            to {
+                transform: scale(1.2);
+            }
+        }
+
+        @-moz-keyframes myMove2 {
+            from {
+                transform: scale(1);
+            }
+
+            to {
+                transform: scale(1.2);
+            }
+        }
+
+        @-ms-keyframes myMove2 {
+            from {
+                transform: scale(1);
+            }
+
+            to {
+                transform: scale(1.2);
+            }
+        }
+    </style>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script>
+        $('document').ready(function () {
+            $(window).on('load', function () {
+                $('#cube-loader').fadeOut(500);
+                console.log('hello');
+            });
+        })
+
+    </script>
+    <script src="ajax/ajax.js"></script>
+    <script src="slick/slick.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="fancybox/jquery.fancybox.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/slider.js"></script>
+</body>
+
+</html>
